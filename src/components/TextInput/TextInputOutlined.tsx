@@ -175,7 +175,7 @@ class TextInputOutlined extends React.Component<ChildTextInputProps> {
 
     const pad = calculatePadding(paddingSettings);
 
-    const paddingOut = adjustPaddingOut({ ...paddingSettings, pad });
+    adjustPaddingOut({ ...paddingSettings, pad });
 
     const baseLabelTranslateY =
       -labelHalfHeight - (topPosition + OUTLINE_MINIMIZED_LABEL_Y_OFFSET);
